@@ -529,6 +529,10 @@ section {
   transform: scale(1);
 }
 
+.ServicesBox:hover{
+   background-color: #d5f0ff;
+}
+
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
@@ -1393,7 +1397,7 @@ section {
   margin-bottom: 24px;
   font-weight: 600;
 }
-.contact .php-email-form .sent-message {
+.sent-message {
   display: none;
   color: #fff;
   background: #18d26e;
@@ -2042,10 +2046,10 @@ section {
 
 
 .quote{
-  background-color: #652c90;
+  background-color: tomato;
   color: #fff !important;
   border-radius: 45px;
-  border: 1px solid #652c90;
+  border: 1px solid tomato;
   font-size: 16px;
   font-weight: 600;
   padding: 6px 19px 7px !important;

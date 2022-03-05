@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>FlexStart Bootstrap Template - Index</title>
+  <title>Hirasadan Global</title>
   <meta content="" name="description">
 
   <meta content="" name="keywords">
@@ -47,7 +47,7 @@
         <ul>
       
           <li><a class="nav-link scrollto">+91 8709510614</a></li>
-          <li><a class="nav-link scrollto">hello@hirasadan.com</a></li>
+          <li><a class="nav-link scrollto">contact@hirasadanglobal.com</a></li>
           <li><a class="getstarted scrollto" href="caseStuday.html">Case Study</a></li>
           <!-- <li><div class="quote-btn"><a class="nav-link scrollto quote">Get a quote</a></div></li> -->
         </ul>
@@ -59,95 +59,17 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="hero d-flex align-items-center">
 
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 d-flex flex-column justify-content-center">
-
-            <form>
-            
-
-               <div class="card" style="box-shadow: 0px 5px 30px rgb(65 84 241 / 40%)">
-               <div>    
-                <h4 style="color: #012970;font-weight: 700"> Let’s discuss about your project </h4>
-                <p style="color: #012970;font-weight: 00"> Use this contact form to share your personal information and we will get back to you soon </p>
-               </div> 
-                <div> 
-                   
-
-                
-                        <div class="form-row">
-                          <div class="form-group col-md-6">
-                            <label for="inputEmail4">Name</label>
-                            <input type="email" class="form-control" id="inputEmail4" placeholder="What's your name">
-                          </div>
-                          <div class="form-group col-md-6">
-                            <label for="inputPassword4">Email</label>
-                            <input type="password" class="form-control" id="inputPassword4" placeholder="What's your Email">
-                          </div>
-                        </div>
-                      
-                       
-                        <div class="form-row">
-                          <div class="form-group col-md-6">
-                            <label for="inputCity">Country</label>
-                            <input type="text" class="form-control" id="inputCity" placeholder="Which country you are living at ?">
-                          </div>
-                          <div class="form-group col-md-6">
-                            <label for="inputPassword4">Phone Number</label>
-                            <input type="password" class="form-control" id="inputPassword4" placeholder="What's your phone number">
-                          </div>
-                          
-                        </div>
-
-
-            
-                         
-                        <div class="form-row">
-                            <div class="form-group col-md-12">
-                              <label for="inputCity">Query / Feedback / problem</label>
-                              <input type="textarea" class="form-control" id="inputCity">
-                              <!-- <textarea rows="4" cols="50" name="comment" form="usrform">Enter text here...</textarea> -->
-                            </div>
-                          
-                            
-                          </div>
-
-
-
-
-                        <div class="form-group">
-                          <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="gridCheck">
-                            <label class="form-check-label" for="gridCheck">
-                              Are you doing good .. ? 
-                            </label>
-                          </div>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                   
-              </div>
-          
-
-            </form>     
-      
-        </div>
-   
-      </div>
-    </div>
-
-  </section>
   <!-- End Hero -->
 
 
       <!-- ======= Contact Section ======= -->
-      <section id="contact" class="contact">
+      <section id="contact" class="contact hero d-flex align-items-center">
 
         <div class="container" data-aos="fade-up">
   
           <header class="section-header">
-            <h2>Contact</h2>
+            <!-- <h2>Contact</h2> -->
             <p>Contact Us</p>
           </header>
   
@@ -156,25 +78,19 @@
             <div class="col-lg-6">
   
               <div class="row gy-4">
-                <div class="col-md-6">
-                  <div class="info-box">
-                    <i class="bi bi-geo-alt"></i>
-                    <h3>Address</h3>
-                    <p>A108 Adam Street,<br>New York, NY 535022</p>
-                  </div>
-                </div>
+                
                 <div class="col-md-6">
                   <div class="info-box">
                     <i class="bi bi-telephone"></i>
                     <h3>Call Us</h3>
-                    <p>+1 5589 55488 55<br>+1 6678 254445 41</p>
+                    <p>+91 8709501614<br>+91 9477581477</p>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="info-box">
                     <i class="bi bi-envelope"></i>
                     <h3>Email Us</h3>
-                    <p>info@example.com<br>contact@example.com</p>
+                    <p>contact@hirasadanglobal.com<br>hirasadanglobal@gmail.com</p>
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -184,36 +100,48 @@
                     <p>Monday - Friday<br>9:00AM - 05:00PM</p>
                   </div>
                 </div>
+  
+                <div class="col-md-6">
+                  <div class="info-box">
+                    <i class="bi bi-geo-alt"></i>
+                    <h3>Address</h3>
+                    <p>EP Block Salt Lake Sector V,<br>Kolkata, India 700091</p>
+                  </div>
+                </div>
               </div>
   
             </div>
   
             <div class="col-lg-6">
-              <form action="forms/contact.php" method="post" class="php-email-form">
+              <form method="post" id="contactForm">
                 <div class="row gy-4">
   
                   <div class="col-md-6">
-                    <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                    <input type="text" name="name" id="contactname" class="form-control" placeholder="Your Name" required autocomplete="true">
                   </div>
   
                   <div class="col-md-6 ">
-                    <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                    <input type="email" class="form-control" id="contactemail" name="email" placeholder="Your Email" required autocomplete="true">
+                  </div>
+  
+                  <div class="col-md-6">
+                    <input type="text" name="country" class="form-control"  id="contactcountry" placeholder="Your Country" required autocomplete="true">
+                  </div>
+  
+                  <div class="col-md-6 ">
+                    <input type="number" class="form-control" name="number" id="contactnumber" placeholder="Your Contact Number" required autocomplete="true">
                   </div>
   
                   <div class="col-md-12">
-                    <input type="text" class="form-control" name="subject" placeholder="Subject" required>
-                  </div>
-  
-                  <div class="col-md-12">
-                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                    <textarea class="form-control" name="message" rows="6" id="contactmessage" placeholder="Message" autocomplete="true" required></textarea>
                   </div>
   
                   <div class="col-md-12 text-center">
-                    <div class="loading">Loading</div>
+                
                     <div class="error-message"></div>
-                    <div class="sent-message">Your message has been sent. Thank you!</div>
+                    <div id="sent-message" class="sent-message">Your message has been sent. Thank you!</div>
   
-                    <button type="submit">Send Message</button>
+                    <button type="submit" class="btn btn-primary">Submit</button>
                   </div>
   
                 </div>
@@ -225,7 +153,9 @@
   
         </div>
   
-      </section><!-- End Contact Section -->
+      </section>
+     
+      <!-- End Contact Section -->
   
     </main><!-- End #main -->
   
@@ -254,27 +184,27 @@
             <div class="col-lg-5 col-md-12 footer-info">
               <a href="index.html" class="logo d-flex align-items-center">
                 <img src="assets/img/logo.png" alt="">
-                <span>FlexStart</span>
+                <span>Hirasadan Global</span>
               </a>
-              <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+              <p>We add digital contour to your ideas while integrating brilliant policies and state-of-the-art features. Leveraging cutting-edge technologies, our persistent team develops rewarding solutions.</p>
               <div class="social-links mt-3">
-                <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-                <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                <a href="https://twitter.com/hirasadan" class="twitter" target="_blank"><i class="bi bi-twitter"></i></a>
+                <a href="https://www.facebook.com/Hirasadan-Global-103301842309850" class="facebook" target="_blank"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/hirasadan_global/" target="_blank" class="instagram"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/hirasadan-global/" class="linkedin" target="_blank"><i class="bi bi-linkedin"></i></a>
               </div>
             </div>
   
             <div class="col-lg-2 col-6 footer-links">
-              <h4>Useful Links</h4>
+              <!-- <h4>Useful Links</h4>
               <ul>
                 <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
                 <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
                 <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
                 <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
                 <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
-              </ul>
-            </div>
+              </ul> -->
+            </div> 
   
             <div class="col-lg-2 col-6 footer-links">
               <h4>Our Services</h4>
@@ -290,11 +220,11 @@
             <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
               <h4>Contact Us</h4>
               <p>
-                A108 Adam Street <br>
-                New York, NY 535022<br>
-                United States <br><br>
-                <strong>Phone:</strong> +1 5589 55488 55<br>
-                <strong>Email:</strong> info@example.com<br>
+                EP Block <br>
+                Sector V , Salt Lake<br>
+                Kolkata , India , 700091 <br><br>
+                <strong>Phone:</strong> +91 8709510614<br>
+                <strong>Email:</strong> contact@hirasadanglobal.com<br>
               </p>
   
             </div>
@@ -305,14 +235,14 @@
   
       <div class="container">
         <div class="copyright">
-          &copy; Copyright <strong><span>FlexStart</span></strong>. All Rights Reserved
+          &copy; Copyright <strong><span>Hirasadan Global</span></strong>. All Rights Reserved
         </div>
         <div class="credits">
           <!-- All the links in the footer should remain intact. -->
           <!-- You can delete the links only if you purchased the pro version. -->
           <!-- Licensing information: https://bootstrapmade.com/license/ -->
           <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/flexstart-bootstrap-startup-template/ -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
         </div>
       </div>
     </footer><!-- End Footer -->
@@ -334,9 +264,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
       <!-- BootStrap ends  -->
     <!-- Template Main JS File -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
     <script src="assets/js/main.js"></script>
-
-
-
-</body>
-</html>  
+    <script src="assets/js/config.js"></script>
+  
+  </body>
+  
+  </html>
