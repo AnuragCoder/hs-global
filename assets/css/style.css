@@ -2114,3 +2114,41 @@ form > .card{
 .form-row > .form-group  > label{color: #012970;font-weight: 400}
 
 
+/* Application Details Page */
+.app-detail-list{
+  text-align: initial;
+    line-height: revert;
+}
+
+.app-detail-list > li {
+  margin-top: 19px;
+  color: #020a3f;
+}
+
+.ServicesBox > p {
+  color: blue;
+  font-weight: 600;
+}
+
+ul.app-detail-list {
+  list-style-type: none;
+}
+
+.app-detail-list > li > .dot {
+  height: 11px;
+  width: 11px;
+  background-color: #6b86e4;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* Application Details Page Ends */
+
+
+
+
+
+
+
+
+
